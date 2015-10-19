@@ -60,7 +60,6 @@ var checkTickets = function()
       }
       
       // NOPE, NO TICKETS YET
-      sendTexts();
       console.log('No tickets yet :(');
 
       // Check again in checkDelay milliseconds
