@@ -5,7 +5,7 @@ var https = require('https'),
     client = new twilio.RestClient(config.id, config.token);
 
 // Check every 5 minutes
-var checkDelay = 60000 * 5;
+var checkDelay = 60000 * 1;
 
 // Store the previous response body for comparison
 var lastBody = null;
